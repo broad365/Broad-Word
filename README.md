@@ -1,4 +1,4 @@
-# 365-Broad-Word
+# Broad-Word
 ### Requires Google Chrome, download here ```https://chrome.google.com```
 
 ## How to Install
