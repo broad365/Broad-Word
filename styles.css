@@ -35,6 +35,11 @@ div#toolbar a.option {
 
 div#toolbar a.option:hover {
   background-color: #3498db;
+  color: #fff;
+  border: 2px solid #3498db;
+  -webkit-border: 2px solid #3498db;
+  -moz-border: 2px solid #3498db;
+  -o-border: 2px solid #3498db;
 }
 
 .icon {
@@ -63,6 +68,8 @@ div#toolbar a.option:hover {
 }
 
 #container textarea.file {
+  margin-top: 15px;
   width: 100%;
   height: 100%;
+  font-size: 16px;
 }
