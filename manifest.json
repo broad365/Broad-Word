@@ -4,10 +4,12 @@
   
   "version": "0.1",
   "manifest_version": 2,
+        
+  "permissions": ["fullscreen"],
 
   "app": {
     "background": {
-	  "scripts": "background.js"
-	}
+	"scripts": "background.js"
+    }
   }
 }
