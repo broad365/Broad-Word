@@ -5,7 +5,7 @@ body {
 }
 
 div#toolbar {
-  background-color: #3498db;
+  background-color: #3495de;
   width: 100%;
 }
 
@@ -17,6 +17,24 @@ div#toolbar a.option {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
+  cursor: pointer;
+  padding:4px 8px;
+  margin:0;
+  
+  background-color: #3495de;
+  transition: 0.3s;
+  border:none;
+  border-radius:0;
+  -webkit-border: none;
+  -moz-border: none;
+  -o-border: none;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  -o-border-radius:0;
+}
+
+div#toolbar a.option:hover {
+  background-color: #3498db;
 }
 
 .icon {
