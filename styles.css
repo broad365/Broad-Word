@@ -42,6 +42,21 @@ div#toolbar a.option:hover {
   background-color: white;
 }
 
+.windowtools {
+  float: right;
+}
+
+.windowtools * {
+  padding: 4px;
+  background-color: #3495de;
+  transition: 0.3s;
+  color: white;
+}
+
+.windowtools *:hover{
+  background-color: #3498db;
+}
+
 #container {
   width: 100%;
   overflow: auto;
