@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div#toolbar {
+  background-color: #3498db;
+  width: 100%;
+}
+
+div#toolbar * {
+  display: inline;
+}
+
+.icon {
+  background-image: url("./assets/images/icon.png");
+  background-color: white;
+}
